@@ -5,5 +5,7 @@ go:
         - master
 install:
         - cp ./config.default.toml ./config.toml
+        - go get -u github.com/golang/dep/...
+        - dep ensure
 script: go test ./...
 
