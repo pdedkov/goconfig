@@ -1,8 +1,9 @@
 language: go
 
 go:
-  - 1.7.x
-  - master
-
+        - 1.7.x
+        - master
+install:
+        - cp ./config.default.toml ./config.toml
 script: go test ./...
 
