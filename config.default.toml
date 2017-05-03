@@ -1,0 +1,5 @@
+# Default test config
+
+StringVar = "string value"
+BoolVar = true
+IntVar = 10
